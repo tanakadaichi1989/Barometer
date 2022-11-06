@@ -9,14 +9,15 @@ import SwiftUI
 import CoreMotion
 
 struct ContentView: View {
+    private let altimator = Altimator()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        Button {
+            altimator.startUpdate()
+        } label: {
+            Text("気圧計を起動")
         }
-        .padding()
+        .buttonStyle(.borderedProminent)
     }
 }
 
