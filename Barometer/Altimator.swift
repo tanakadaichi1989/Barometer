@@ -15,7 +15,7 @@ final class Altimator {
         altimeter = CMAltimeter()
     }
     
-    func startUpdate() {
+    func startUpdate(completion: @escaping (Double) -> Void) {
         guard let altimeter = altimeter else {
             return
         }
@@ -27,11 +27,8 @@ final class Altimator {
                     guard let pressure = data?.pressure.doubleValue else {
                         return
                     }
-                    
                     print("気圧", pressure * 10)
-                    print("高度", altitude as Any)
-
-                    self.stopUpdate()
+                    completion(pressure * 10)
                 } else {
                     // エラー対応
                 }
