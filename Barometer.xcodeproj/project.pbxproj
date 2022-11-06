@@ -14,6 +14,7 @@
 		A1C6565029175D8200A28224 /* BarometerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6564F29175D8200A28224 /* BarometerTests.swift */; };
 		A1C6565A29175D8200A28224 /* BarometerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6565929175D8200A28224 /* BarometerUITests.swift */; };
 		A1C6565C29175D8200A28224 /* BarometerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6565B29175D8200A28224 /* BarometerUITestsLaunchTests.swift */; };
+		A1C656692917615B00A28224 /* Altimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C656682917615B00A28224 /* Altimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A1C6565529175D8200A28224 /* BarometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C6565929175D8200A28224 /* BarometerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarometerUITests.swift; sourceTree = "<group>"; };
 		A1C6565B29175D8200A28224 /* BarometerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarometerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1C656682917615B00A28224 /* Altimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Altimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				A1C6563E29175D8100A28224 /* BarometerApp.swift */,
 				A1C6564029175D8100A28224 /* ContentView.swift */,
+				A1C656682917615B00A28224 /* Altimator.swift */,
 				A1C6564229175D8200A28224 /* Assets.xcassets */,
 				A1C6564429175D8200A28224 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C656692917615B00A28224 /* Altimator.swift in Sources */,
 				A1C6564129175D8100A28224 /* ContentView.swift in Sources */,
 				A1C6563F29175D8100A28224 /* BarometerApp.swift in Sources */,
 			);
